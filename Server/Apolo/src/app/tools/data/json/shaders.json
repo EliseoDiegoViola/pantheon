@@ -1,0 +1,549 @@
+{
+  "shaders": [
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MetallicGlossMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_ParallaxMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_OcclusionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_EmissionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailMask",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailAlbedoMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailNormalMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "Standard"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Cutoff",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_OcclusionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_OcclusionStrength",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_WindSpeed",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_WindScale",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_WindIntensity",
+          "propType": "Float",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/Nature/StandardLeaves"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_CombinedMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MainTex2",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap2",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_CombinedMap2",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MainTex3",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap3",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_CombinedMap3",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "VTP/Metallic/3 Texture Blend (Advanced)"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_NormalTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "Element Space/Hair Shader 2"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Metallic",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "VFX/Standard/VertexTinted"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_SequenceTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/Animated/WorldPosSpritesheetAnimator"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_SequenceTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/Animated/WorldPosRowAnimator"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_Wave1",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Wave2",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Foam",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "VFX/Water/WaterWaves"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_EmissionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Metallic",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_InsideTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/VFX/ParallaxWindow"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_NormalMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "Refractive/RefractSurf_noGloss"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MetallicGlossMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_ParallaxMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_OcclusionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_EmissionMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailMask",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailAlbedoMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DetailNormalMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/Basic/Standard2Sided"
+    },
+    {
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Packed",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Emissive",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ],
+      "shaderName": "ES/Decal/DeferredDecalParallax"
+    },
+    {
+      "shaderName": "Lux/Anisotropic Lighting/Hair",
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_BumpMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MetallicGlossMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_TangentDir",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ]
+    },
+    {
+      "shaderName": "ES/Unlit/UnlitNoFog",
+      "properties": [
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ]
+    },
+    {
+      "shaderName": "Element Space/Animated/VFX Additive",
+      "properties": [
+        {
+          "propName": "_Color",
+          "propType": "Color",
+          "propValue": ""
+        },
+        {
+          "propName": "_Color1",
+          "propType": "Color",
+          "propValue": ""
+        },
+        {
+          "propName": "_Color2",
+          "propType": "Color",
+          "propValue": ""
+        },
+        {
+          "propName": "_MainTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_AnimUV",
+          "propType": "Vector",
+          "propValue": ""
+        },
+        {
+          "propName": "_AnimSpeed",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_MainTex2",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_AnimUV2",
+          "propType": "Vector",
+          "propValue": ""
+        },
+        {
+          "propName": "_AnimSpeed2",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_AlphaTex",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_AlphaTexUV3",
+          "propType": "Vector",
+          "propValue": ""
+        },
+        {
+          "propName": "_AlphaTexAnimSpeed3",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_InvFade",
+          "propType": "Range",
+          "propValue": ""
+        },
+        {
+          "propName": "_Extrude",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_SaturateColor",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_ZOffset",
+          "propType": "Float",
+          "propValue": ""
+        },
+        {
+          "propName": "_FloorPatternOn",
+          "propType": "Float",
+          "propValue": ""
+        }
+      ]
+    },
+    {
+      "shaderName": "HDRenderPipeline/Unlit",
+      "properties": [
+        {
+          "propName": "_UnlitColor",
+          "propType": "Color",
+          "propValue": ""
+        }
+      ]
+    },
+    {
+      "shaderName": "HDRenderPipeline/Lit",
+      "properties": [
+        {
+          "propName": "_BaseColor",
+          "propType": "Color",
+          "propValue": ""
+        },
+        {
+          "propName": "_BaseColorMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_Metallic",
+          "propType": "Range",
+          "propValue": "1"
+        },
+        {
+          "propName": "_Smoothness",
+          "propType": "Range",
+          "propValue": ""
+        },
+        {
+          "propName": "_MaskMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_NormalMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        }
+      ]
+    },
+    {
+      "shaderName": "HDRenderPipeline/Decal",
+      "properties": [
+        {
+          "propName": "_BaseColor",
+          "propType": "Color",
+          "propValue": ""
+        },
+        {
+          "propName": "_BaseColorMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_NormalMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_MaskMap",
+          "propType": "TexEnv",
+          "propValue": ""
+        },
+        {
+          "propName": "_DecalBlend",
+          "propType": "Range",
+          "propValue": ""
+        },
+        {
+          "propName": "_AlbedoMode",
+          "propType": "Range",
+          "propValue": ""
+        }
+      ]
+    }
+  ]
+}

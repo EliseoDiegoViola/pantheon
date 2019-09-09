@@ -1,0 +1,5 @@
+https://bootstrap.pypa.io/get-pip.py
+
+"C:\Users\Programming-Tools\Desktop\Blender 2.8\2.80\python\bin\python.exe""C:\Users\Programming-Tools\Desktop\Blender 2.8\2.80\python\bin\get-pip.py"
+
+"C:\Users\Programming-Tools\Desktop\Blender 2.8\2.80\python\bin\python.exe" "C:\Users\Programming-Tools\Desktop\Blender 2.8\2.80\python\lib\site-packages\pip" install PySide2

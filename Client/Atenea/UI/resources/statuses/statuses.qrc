@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="statuses">
+    <file>error.png</file>
+    <file>exported.png</file>
+    <file>imported.png</file>
+    <file>notReady.png</file>
+    <file>ready.png</file>
+  </qresource>
+</RCC>

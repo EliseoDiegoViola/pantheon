@@ -1,0 +1,194 @@
+{
+  "Root": {
+    "c_root_01_skn": {
+      "SLOT_PelvisL": {},
+      "MP_HipL": {},
+      "c_spine_00_skn": {
+        "c_spine_01_skn": {
+          "c_spine_02_skn": {
+            "c_spine_03_skn": {
+              "c_chest_00_skn": {
+                "MP_ChestBack": {},
+                "c_chest_01_skn": {
+                  "c_neck_00_skn": {
+                    "c_neck_01_skn": {
+                      "c_neck_02_skn": {
+                        "c_head_00_skn": {
+                          "r_eyeAim_00_skn": {},
+                          "SLOT_Head": {},
+                          "l_eyeAim_00_skn": {},
+                          "MP_Head": {}
+                        }
+                      }
+                    }
+                  }
+                },
+                "SLOT_BackR": {},
+                "SLOT_BackL": {},
+                "r_clavicle_04_skn": {
+                  "r_humerusRibbon_01_skn": {
+                    "r_humerusRibbon_02_skn": {
+                      "r_humerusRibbon_03_skn": {
+                        "r_elbow_01_skn": {
+                          "r_radiusRibbon_01_skn": {
+                            "r_radiusRibbon_02_skn": {
+                              "r_radiusRibbon_03_skn": {
+                                "r_wrist_00_skn": {
+                                  "r_ring_00_skn": {
+                                    "r_ring_01_skn": {
+                                      "r_ring_02_skn": {
+                                        "r_ring_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "r_thumb_00_skn": {
+                                    "r_thumb_01_skn": {
+                                      "r_thumb_02_skn": {}
+                                    }
+                                  },
+                                  "r_pinky_00_skn": {
+                                    "r_pinky_01_skn": {
+                                      "r_pinky_02_skn": {
+                                        "r_pinky_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "r_middle_00_skn": {
+                                    "r_middle_01_skn": {
+                                      "r_middle_02_skn": {
+                                        "r_middle_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "SLOT_HandR": {},
+                                  "r_index_00_skn": {
+                                    "r_index_01_skn": {
+                                      "r_index_02_skn": {
+                                        "r_index_03_skn": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "MP_ForearmR": {}
+                            }
+                          }
+                        }
+                      },
+                      "MP_BicepsR": {}
+                    }
+                  },
+                  "MP_ClavicleR": {}
+                },
+                "l_clavicle_04_skn": {
+                  "MP_ClavicleL": {},
+                  "l_humerusRibbon_01_skn": {
+                    "l_humerusRibbon_02_skn": {
+                      "MP_BicepsL": {},
+                      "l_humerusRibbon_03_skn": {
+                        "l_elbow_01_skn": {
+                          "l_radiusRibbon_01_skn": {
+                            "l_radiusRibbon_02_skn": {
+                              "l_radiusRibbon_03_skn": {
+                                "l_wrist_00_skn": {
+                                  "l_middle_00_skn": {
+                                    "l_middle_01_skn": {
+                                      "l_middle_02_skn": {
+                                        "l_middle_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "SLOT_HandL": {},
+                                  "l_thumb_00_skn": {
+                                    "l_thumb_01_skn": {
+                                      "l_thumb_02_skn": {}
+                                    }
+                                  },
+                                  "l_ring_00_skn": {
+                                    "l_ring_01_skn": {
+                                      "l_ring_02_skn": {
+                                        "l_ring_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "l_index_00_skn": {
+                                    "l_index_01_skn": {
+                                      "l_index_02_skn": {
+                                        "l_index_03_skn": {}
+                                      }
+                                    }
+                                  },
+                                  "l_pinky_00_skn": {
+                                    "l_pinky_01_skn": {
+                                      "l_pinky_02_skn": {
+                                        "l_pinky_03_skn": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "MP_ForearmL": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "MP_ChestFront": {}
+              }
+            }
+          }
+        }
+      },
+      "SLOT_PelvisBack": {},
+      "l_thigh_01_skn": {
+        "l_femurRibbon_01_skn": {
+          "l_femurRibbon_02_skn": {
+            "l_femurRibbon_03_skn": {
+              "l_kneeRibbon_00_skn": {
+                "l_tibiaRibbon_01_skn": {
+                  "l_tibiaRibbon_02_skn": {
+                    "MP_CalvesL": {},
+                    "l_tibiaRibbon_03_skn": {
+                      "l_foot_00_skn": {
+                        "SLOT_FootL": {},
+                        "l_ball_00_skn": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "MP_ThighL": {}
+          }
+        }
+      },
+      "r_thigh_01_skn": {
+        "r_femurRibbon_01_skn": {
+          "r_femurRibbon_02_skn": {
+            "r_femurRibbon_03_skn": {
+              "r_kneeRibbon_00_skn": {
+                "r_tibiaRibbon_01_skn": {
+                  "r_tibiaRibbon_02_skn": {
+                    "MP_CalvesR": {},
+                    "r_tibiaRibbon_03_skn": {
+                      "r_foot_00_skn": {
+                        "r_ball_00_skn": {},
+                        "SLOT_FootR": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "MP_ThighR": {}
+          }
+        }
+      },
+      "MP_HipR": {},
+      "SLOT_PelvisR": {}
+    },
+    "Trigger_joint": {}
+  }
+}

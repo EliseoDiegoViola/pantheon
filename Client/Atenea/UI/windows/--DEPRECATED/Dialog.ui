@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Atenea</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="buildTab">
+      <attribute name="title">
+       <string>Build</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4" stretch="5,0,2">
+       <item>
+        <layout class="QHBoxLayout" name="buildInfoLayout" stretch="3,0,7,0,2">
+         <item>
+          <layout class="QVBoxLayout" name="buildFiltersLayout" stretch="0,10">
+           <item>
+            <layout class="QHBoxLayout" name="filterByText">
+             <item>
+              <widget class="QLabel" name="filterTitle">
+               <property name="text">
+                <string>Search:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="buildFilterSearch">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>10</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="filtersScrollArea">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="filtersScrollAreaLayout">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>178</width>
+                <height>325</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <widget class="QTreeWidget" name="filtersTree">
+                 <property name="uniformRowHeights">
+                  <bool>true</bool>
+                 </property>
+                 <property name="animated">
+                  <bool>true</bool>
+                 </property>
+                 <property name="columnCount">
+                  <number>1</number>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Filters</string>
+                  </property>
+                 </column>
+                 <item>
+                  <property name="text">
+                   <string>Faction</string>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>ES</string>
+                   </property>
+                   <property name="checkState">
+                    <enum>Unchecked</enum>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>SU</string>
+                   </property>
+                   <property name="checkState">
+                    <enum>Unchecked</enum>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Corsairs</string>
+                   </property>
+                   <property name="checkState">
+                    <enum>Unchecked</enum>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>CSAC</string>
+                   </property>
+                   <property name="checkState">
+                    <enum>Unchecked</enum>
+                   </property>
+                  </item>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="Separator_1">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="buildNodesTreeLayout">
+           <item>
+            <widget class="QTreeWidget" name="buildNodesTree">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectItems</enum>
+             </property>
+             <property name="uniformRowHeights">
+              <bool>false</bool>
+             </property>
+             <property name="animated">
+              <bool>true</bool>
+             </property>
+             <property name="headerHidden">
+              <bool>false</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>Art</string>
+              </property>
+             </column>
+             <item>
+              <property name="text">
+               <string>Characters</string>
+              </property>
+              <property name="flags">
+               <set>ItemIsEnabled</set>
+              </property>
+              <item>
+               <property name="text">
+                <string>MC</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Jack</string>
+                </property>
+                <property name="checkState">
+                 <enum>Unchecked</enum>
+                </property>
+                <property name="flags">
+                 <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Alice</string>
+                </property>
+                <property name="checkState">
+                 <enum>Unchecked</enum>
+                </property>
+               </item>
+              </item>
+              <item>
+               <property name="text">
+                <string>Bigmale</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>MidMale</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Female</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Empress</string>
+                </property>
+                <property name="checkState">
+                 <enum>Unchecked</enum>
+                </property>
+               </item>
+              </item>
+             </item>
+             <item>
+              <property name="text">
+               <string>Faction</string>
+              </property>
+              <property name="flags">
+               <set>ItemIsEnabled</set>
+              </property>
+              <item>
+               <property name="text">
+                <string>ES</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Animations</string>
+                </property>
+                <property name="flags">
+                 <set>ItemIsEnabled</set>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Props-H</string>
+                </property>
+                <property name="flags">
+                 <set>ItemIsEnabled</set>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Door</string>
+                 </property>
+                 <property name="checkState">
+                  <enum>Unchecked</enum>
+                 </property>
+                 <property name="flags">
+                  <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+                 </property>
+                </item>
+               </item>
+              </item>
+              <item>
+               <property name="text">
+                <string>Commons</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Props</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>DogStatue</string>
+                 </property>
+                 <property name="checkState">
+                  <enum>Unchecked</enum>
+                 </property>
+                </item>
+               </item>
+              </item>
+             </item>
+             <item>
+              <property name="text">
+               <string>Weapons</string>
+              </property>
+              <property name="flags">
+               <set>ItemIsEnabled</set>
+              </property>
+              <item>
+               <property name="text">
+                <string>Singles</string>
+               </property>
+               <property name="flags">
+                <set>ItemIsEnabled</set>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Revolvers</string>
+                </property>
+                <property name="flags">
+                 <set>ItemIsEnabled</set>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>ES</string>
+                 </property>
+                 <property name="flags">
+                  <set>ItemIsEnabled</set>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>Revolver</string>
+                  </property>
+                  <property name="checkState">
+                   <enum>Unchecked</enum>
+                  </property>
+                  <property name="flags">
+                   <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+                  </property>
+                 </item>
+                </item>
+               </item>
+              </item>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="Separator_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="ItemsToBuild">
+           <item>
+            <widget class="QLabel" name="itemsToBuildTitle">
+             <property name="text">
+              <string>Items To Build:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListWidget" name="itemsList">
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <property name="showDropIndicator" stdset="0">
+              <bool>false</bool>
+             </property>
+             <property name="defaultDropAction">
+              <enum>Qt::IgnoreAction</enum>
+             </property>
+             <property name="alternatingRowColors">
+              <bool>true</bool>
+             </property>
+             <property name="selectionMode">
+              <enum>QAbstractItemView::NoSelection</enum>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="verticalScrollMode">
+              <enum>QAbstractItemView::ScrollPerPixel</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="buildButtonsLayout" stretch="1,2,2">
+         <item>
+          <widget class="QPushButton" name="buttonBuildRefresh">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Refresh</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="buttonBuildStep1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Build Step 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="buttonBuildStep2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Build Step 2</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="buildConsoleLayout" stretch="0">
+         <item>
+          <widget class="QScrollArea" name="scrollArea">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>1</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>754</width>
+              <height>139</height>
+             </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="consoleOutput">
+               <property name="text">
+                <string>&lt;font size=4&gt; &lt;b&gt; &gt;&gt;&gt;&gt;Output &lt;/b&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;font color=&quot;green&quot;&gt; &gt;&gt;&gt;&gt;Step 1 succesful &lt;/font&gt;
+
+</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+               <property name="openExternalLinks">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="moreToComeTab">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <attribute name="title">
+       <string>More To Come</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="WIPLabel">
+         <property name="text">
+          <string>NEW TOOLS COMMING!</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionRefresh">
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+   <property name="toolTip">
+    <string>refreshFolders</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>buildNodesTree</tabstop>
+  <tabstop>filtersTree</tabstop>
+  <tabstop>filtersScrollArea</tabstop>
+  <tabstop>buttonBuildRefresh</tabstop>
+  <tabstop>buttonBuildStep1</tabstop>
+  <tabstop>buttonBuildStep2</tabstop>
+  <tabstop>scrollArea</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

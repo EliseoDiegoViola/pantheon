@@ -1,0 +1,43 @@
+{
+	"help": {
+		"alias": [ "halp" ],
+		"endpoint": "#",
+		"help": "help [command](optional)",
+		"description": "To get help on all supported commands, or a specified command"
+	},
+
+	"gem": {
+		"alias": [],
+		"endpoint": "https://rubygems.org/api/v1/gems/{gem}.json",
+		"help": "gem [gem-name]",
+		"description": "Fetches details of the specified Ruby gem"
+	},
+
+	"build":{
+		"alias": [],
+		"endpoint": "#",
+		"help": "build [command]",
+		"description": "Parse the information provided and try to build the asset requested"
+	},
+	"zip":{
+		"alias": ["zip me","zippy"],
+		"endpoint": "#",
+		"help": "zip [command]",
+		"description": "Parse the information provided, try to zip the asset requested and uploads the file to slack"
+	},
+	"update":{
+		"alias": [],
+		"endpoint": "#",
+		"help": "update [ProjectName]",
+		"description": "Updates the given plastic workspace."
+	},
+	"undo":{
+		"alias": [],
+		"endpoint": "#",
+		"help": "undo [ProjectName]",
+		"description": "Undo the given plastic workspace."
+	},
+	"error": {
+		"exclude": true
+	}
+}

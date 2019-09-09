@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="fileStatuses">
+    <file>fileImported.png</file>
+    <file>fileAdded.png</file>
+    <file>fileExported.png</file>
+  </qresource>
+</RCC>

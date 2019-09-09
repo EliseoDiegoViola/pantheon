@@ -1,0 +1,58 @@
+{
+  "Standard": {
+    "ambientMap": "_OcclusionMap",
+    "bumpMap": "_BumpMap",
+    "diffuseMap": "_MainTex",
+    "displacementMap": "_ParallaxMap",
+    "filterMap": "_DetailMask",
+    "glossinessMap": "_MetallicGlossMap",
+    "opacityMap": "_DetailAlbedoMap",
+    "reflectionMap": "",
+    "refractionMap": "_DetailNormalMap",
+    "selfIllumMap": "_EmissionMap",
+    "specularLevelMap": "",
+    "specularMap": ""
+  },
+  "ES/Nature/StandardLeaves": {
+    "ambientMap": "_OcclusionMap",
+    "bumpMap": "_BumpMap",
+    "diffuseMap": "_MainTex",
+    "displacementMap": "",
+    "filterMap": "",
+    "glossinessMap": "",
+    "opacityMap": "",
+    "reflectionMap": "",
+    "refractionMap": "",
+    "selfIllumMap": "",
+    "specularLevelMap": "",
+    "specularMap": ""
+  },
+  "VTP/Metallic/3 Texture Blend (Advanced)": {
+    "ambientMap": "",
+    "bumpMap": "_BumpMap",
+    "diffuseMap": "_MainTex",
+    "displacementMap": "",
+    "filterMap": "_CombinedMap",
+    "glossinessMap": "_MainTex2",
+    "opacityMap": "_BumpMap2",
+    "reflectionMap": "_CombinedMap2",
+    "refractionMap": "_MainTex3",
+    "selfIllumMap": "_BumpMap3",
+    "specularLevelMap": "_CombinedMap3",
+    "specularMap": ""
+  },
+  "Element Space/Hair Shader 2": {
+    "ambientMap": "",
+    "bumpMap": "_NormalTex",
+    "diffuseMap": "_MainTex",
+    "displacementMap": "",
+    "filterMap": "",
+    "glossinessMap": "",
+    "opacityMap": "",
+    "reflectionMap": "",
+    "refractionMap": "",
+    "selfIllumMap": "",
+    "specularLevelMap": "",
+    "specularMap": ""
+  }
+}

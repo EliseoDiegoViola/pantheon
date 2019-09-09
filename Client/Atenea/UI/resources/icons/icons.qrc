@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>pantheon.png</file>
+    <file>folderIcon.png</file>
+    <file>blender.png</file>
+    <file>max.png</file>
+    <file>maya.png</file>
+  </qresource>
+</RCC>

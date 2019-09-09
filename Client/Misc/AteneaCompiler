@@ -1,0 +1,1 @@
+pyinstaller --distpath C:/Atenea --clean --onefile --debug --console "C:\Projects\Pantheon\Client\Atenea.py"

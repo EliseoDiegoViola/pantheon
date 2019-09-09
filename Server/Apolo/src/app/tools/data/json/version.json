@@ -1,0 +1,58 @@
+{
+  "Maya_EzMaterials": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Maya_EzAnims": {
+    "version": 10,
+    "minVersion": 1
+  },
+  "Maya_CharToFbx": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Maya_AnimToFbx": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Maya_AteneaImporter": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Max_EzAnim": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Max_EzMaterials": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Max_EzTags": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Max_EnvToFbx": {
+    "version": 10,
+    "minVersion": 1
+  },
+  "Blender_EzMaterials": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Blender_EzTags": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Blender_EnvToFbx": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Blender_PropToFbx": {
+    "version": 1,
+    "minVersion": 1
+  },
+  "Blender_WpnToFbx": {
+    "version": 1,
+    "minVersion": 1
+  }
+}

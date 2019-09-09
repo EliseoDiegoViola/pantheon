@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "layerName": "Not Walkable"
+    },
+    {
+      "layerName": "Walkable"
+    },
+    {
+      "layerName": "Jump"
+    },
+    {
+      "layerName": "Wood"
+    },
+    {
+      "layerName": "Metal"
+    },
+    {
+      "layerName": "Sand"
+    }
+  ]
+}

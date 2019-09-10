@@ -1,0 +1,69 @@
+{
+  "version": 0,
+  "requiredComponents": [],
+  "requiredProcess": [
+  {
+      "methodName": "SetColliders",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "cols",
+          "argValue": "propColliders",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetLayer",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "LayDatas",
+          "argValue": "objectLayers",
+          "argType": "AtnParseToArray_LayerData"
+        }
+      ]
+    },
+    {
+      "methodName": "CreateOverrideController",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "uniqueness",
+          "argValue": "unique",
+          "argType": "AtnParseToBool"
+        },
+        {
+          "argName": "animatorPath",
+          "argValue": "PropController_Animated",
+          "argType": "AtnParseToPath"
+        }
+      ]
+    }
+  ],
+  "postProcess": []
+}

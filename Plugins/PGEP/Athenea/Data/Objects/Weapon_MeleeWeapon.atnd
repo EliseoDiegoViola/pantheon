@@ -1,0 +1,93 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "AuditiveSignal",
+      "namespace": "Ergo.SenseSystem",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": []
+    },
+    {
+      "scriptName": "MeleeWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": [
+      {
+          "propertyName": "type",
+          "propertyValue": "ElementSpace.WeaponClassType.MELEE",
+          "propertyType": "AtnParseToEnum"
+      }
+      ]
+    },
+    {
+      "scriptName": "Rigidbody",
+      "namespace": "UnityEngine",
+      "dll": "UnityEngine",
+      "owner": "__ROOT__",
+      "properties": [
+      {
+          "propertyName": "isKinematic",
+          "propertyValue": "true",
+          "propertyType": "AtnParseToBool"
+      }
+      ]
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "SetHandPoints",
+      "scriptName": "MeleeWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "leftHand",
+          "argValue": "leftHandTarget",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "rightHand",
+          "argValue": "rightHandTarget",
+          "argType": "AtnParseToGameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "SetUpEdgeColliders",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "cols",
+          "argValue": "edgeColliders",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetPhysicsColliders",
+      "scriptName": "MeleeWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "colliders",
+          "argValue": "weaponCollider",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    }
+  ],
+  "postProcess": []
+}

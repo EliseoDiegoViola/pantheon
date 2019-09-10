@@ -1,0 +1,127 @@
+{
+  "version": 0,
+  "requiredComponents": [],
+  "requiredProcess": [
+  {
+      "methodName": "SetColliders",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "cols",
+          "argValue": "propColliders",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetStaticTags",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "staFlags",
+          "argValue": "staticFlags",
+          "argType": "AtnParseToArray_StaticFlagData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetLayer",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "LayDatas",
+          "argValue": "objectLayers",
+          "argType": "AtnParseToArray_LayerData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetNavmesh",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "navData",
+          "argValue": "propNavmesh",
+          "argType": "AtnParseToArray_NavMeshLayerData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetUpSensors",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "cols",
+          "argValue": "propColliders",
+          "argType": "AtnParseToArray_ColliderData"
+        },
+        {
+          "argName": "tags",
+          "argValue": ["Ammo"],
+          "argType": "AtnParseToArray_String"
+        }
+      ]
+    }    
+  ],
+  "postProcess": [
+  {
+      "methodName": "UpdateLevelDesignPrefabCovers",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "coversDirectory",
+          "argValue": "Assets/ElementSpace/Prefabs/Covers",
+          "argType": "AtnParseToString"
+        }
+      ]
+    }
+  ]
+}

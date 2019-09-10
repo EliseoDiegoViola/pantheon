@@ -1,0 +1,46 @@
+{
+  "artmaster" : "Assets\\Modules_Workflow\\Artworks\\Pantheon_Exports",
+  "paths": [
+    {
+      "dataName": "Lightmapping_VeryLowResolution",
+      "dataValue": "Assets\\Pantheon\\Apollo\\ApolloJobs\\VeryLowResolution.giparams"
+    },
+    {
+      "dataName": "animatorController_FireWeapon",
+      "dataValue": "Assets\\ElementSpace\\AnimationControllers\\Weapon\\FireWeapon\\FireWeapon.controller"
+    },
+    {
+      "dataName": "animatorController_DoorMecanim",
+      "dataValue": "Assets\\ElementSpace\\AnimationControllers\\Props\\SimpleDoor\\SimpleDoor.controller"
+    },
+    {
+      "dataName": "PropController_Animated",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Props\\Animated\\PropControllers\\PropController_Animated.controller"
+    },
+    {
+      "dataName": "AvatarControllerRootMotion_MidCharacter",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\AvatarControllers\\AvatarControllerRootMotion_MidCharacter.controller"
+    },
+    {
+      "dataName": "AvatarControllerRootMotion_Femaleharacter",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\AvatarControllers\\AvatarControllerRootMotion_Femaleharacter.controller"
+    },
+    {
+      "dataName": "AvatarControllerRootMotion_BigCharacter",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\AvatarControllers\\AvatarControllerRootMotion_BigCharacter.controller"
+    },
+    {
+      "dataName": "MidCharacter_OverrideConfig",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\Overrides\\MidMaleProxyCharacter_Overrides\\MidMaleProxy_OverrideConfig.asset"
+    },
+    {
+      "dataName": "FemaleCharacter_OverrideConfig",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\Overrides\\FemaleProxyCharacter_Overrides\\FemaleCharacter_OverrideConfig.asset"
+    },
+    {
+      "dataName": "BigCharacter_OverrideConfig",
+      "dataValue": "Assets\\ElementSpace_NewFolder\\Characters\\Common\\Overrides\\BigMaleProxyCharacter_Overrides\\BigMaleProxy_OverrideConfig.asset"
+    }
+  ],
+  "version": 1
+}

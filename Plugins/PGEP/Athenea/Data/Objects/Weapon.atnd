@@ -1,0 +1,74 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "AuditiveSignal",
+      "namespace": "Ergo.SenseSystem",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": []
+    },
+    {
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": []
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "SetHandPoints",
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "leftHand",
+          "argValue": "leftHandTarget",
+          "argType": "GameObject"
+        },
+        {
+          "argName": "rightHand",
+          "argValue": "rightHandTarget",
+          "argType": "GameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "SetOverrideController",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "animatorOwner",
+          "argValue": "__ROOT__",
+          "argType": "GameObject"
+        },
+        {
+          "argName": "animatorName",
+          "argValue": "animatorController_FireWeapon",
+          "argType": "Path"
+        }
+      ]
+    },
+    {
+      "methodName": "SetPhysicsColliders",
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "colliders",
+          "argValue": "colliders",
+          "argType": "AtnParseToColliders"
+        }
+      ]
+    }
+  ],
+  "postProcess": []
+}

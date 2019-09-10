@@ -1,0 +1,111 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "dll": "UnityEngine",
+      "namespace": "UnityEngine",
+      "owner": "*^~plane_black",
+      "properties": [
+        {
+          "propertyName": "m_ScaleInLightmap",
+          "propertyType": "AtnParseToFloat",
+          "propertyValue": "0.01"
+        },
+        {
+          "propertyName": "m_LightmapParameters",
+          "propertyType": "AtnParseToPath",
+          "propertyValue": "Lightmapping_VeryLowResolution"
+        }
+      ],
+      "scriptName": "MeshRenderer"
+    }
+  ],
+  "requiredProcess": [
+  {
+      "methodName": "SetUpRooms",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "rooms",
+          "argValue": "roomDefinitions",
+          "argType": "AtnParseToArray_RoomData"
+        }
+      ]
+    },
+  {
+      "methodName": "SetColliders",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "cols",
+          "argValue": "objectColliders",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    },
+  {
+      "methodName": "SetStaticTags",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "staFlags",
+          "argValue": "staticFlags",
+          "argType": "AtnParseToArray_StaticFlagData"
+        }
+      ]
+    },
+    {
+      "methodName": "SetLayer",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "root",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "LayDatas",
+          "argValue": "objectLayers",
+          "argType": "AtnParseToArray_LayerData"
+        }
+      ]
+    },
+    {
+      "methodName": "CollidingMeshes",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp-Editor",
+      "owner": "__STATIC__",
+      "arguments": [
+      {
+          "argName": "boxes",
+          "argValue": "seeThrougDefinitions",
+          "argType": "AtnParseToArray_SeeThrough"
+      }
+      ]
+    }
+  ],
+  "postProcess": []
+}

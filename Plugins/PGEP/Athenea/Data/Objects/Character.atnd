@@ -1,0 +1,64 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "Animator",
+      "namespace": "UnityEngine",
+      "dll": "UnityEngine",
+      "owner": "__ROOT__",
+      "properties": [
+        {
+          "propertyName": "runtimeAnimatorController",
+          "propertyValue": "overrideConfig_MidCharacter",
+          "propertyType": "Path"
+        }
+      ]
+    },
+    {
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": []
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "SetupAvatar",
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "rigType",
+          "argValue": "Ergo.RigTypes.ASSEMBLY3D",
+          "argType": "Enum"
+        }
+      ]
+    },
+    {
+      "methodName": "CreateRagdoll",
+      "scriptName": "ElementSpaceRagdollBuilder",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "avatar",
+          "argValue": "__ROOT__",
+          "argType": "GameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "PostSetup",
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": []
+    }
+  ],
+  "postProcess": []
+}

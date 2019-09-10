@@ -1,0 +1,88 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "AuditiveSignal",
+      "namespace": "Ergo.SenseSystem",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": []
+    },
+    {
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": [
+      {
+          "propertyName": "type",
+          "propertyValue": "ElementSpace.WeaponClassType.RANGED",
+          "propertyType": "AtnParseToEnum"
+      }
+      ]
+    },
+    {
+      "scriptName": "Rigidbody",
+      "namespace": "UnityEngine",
+      "dll": "UnityEngine",
+      "owner": "__ROOT__",
+      "properties": [
+      {
+          "propertyName": "isKinematic",
+          "propertyValue": "true",
+          "propertyType": "AtnParseToBool"
+      }
+      ]
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "SetHandPoints",
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "leftHand",
+          "argValue": "leftHandTarget",
+          "argType": "AtnParseToGameObject"
+        },
+        {
+          "argName": "rightHand",
+          "argValue": "rightHandTarget",
+          "argType": "AtnParseToGameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "SetAmmoPoint",
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "ammoPoint",
+          "argValue": "ammoSpawnPoint",
+          "argType": "AtnParseToGameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "SetPhysicsColliders",
+      "scriptName": "FireWeapon",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "colliders",
+          "argValue": "weaponCollider",
+          "argType": "AtnParseToArray_ColliderData"
+        }
+      ]
+    }
+  ],
+  "postProcess": []
+}

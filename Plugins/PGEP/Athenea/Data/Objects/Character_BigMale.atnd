@@ -1,0 +1,77 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "Animator",
+      "namespace": "UnityEngine",
+      "dll": "UnityEngine",
+      "owner": "__ROOT__",
+      "properties": [
+        {
+          "propertyName": "runtimeAnimatorController",
+          "propertyValue": "AvatarControllerRootMotion_BigCharacter",
+          "propertyType": "AtnParseToPath"
+        }
+      ]
+    },
+    {
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": [
+      {
+        "propertyName": "rigWeaponsAnimatorConfig",
+        "propertyValue": "BigCharacter_OverrideConfig",
+        "propertyType": "AtnParseToPath"
+      },
+
+      {
+        "propertyName": "rigArchetype",
+        "propertyValue": "ElementSpace.EntityArchetypes.BIG_MALE",
+        "propertyType": "AtnParseToEnum"
+      }
+
+      ]
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "SetupAvatar",
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": [
+        {
+          "argName": "rigType",
+          "argValue": "Ergo.RigTypes.ASSEMBLY3D",
+          "argType": "AtnParseToEnum"
+        }
+      ]
+    },
+    {
+      "methodName": "CreateRagdoll",
+      "scriptName": "ElementSpaceRagdollBuilder",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "avatar",
+          "argValue": "__ROOT__",
+          "argType": "AtnParseToGameObject"
+        }
+      ]
+    },
+    {
+      "methodName": "PostSetup",
+      "scriptName": "ViewBiped",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": []
+    }
+  ],
+  "postProcess": []
+}

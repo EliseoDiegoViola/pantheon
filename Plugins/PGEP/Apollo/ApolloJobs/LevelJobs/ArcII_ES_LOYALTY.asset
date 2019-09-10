@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54196d1783c7c5448e07b58c084c455, type: 3}
+  m_Name: ArcII_ES_LOYALTY
+  m_EditorClassIdentifier: 
+  scenes:
+  - {fileID: 102900000, guid: f3eb91d0db3aad145915c0f31a257037, type: 3}
+  - {fileID: 102900000, guid: 2c450a9434d0b23418102c81697da631, type: 3}
+  - {fileID: 102900000, guid: 1c4d25073042f55488c48b2e3cf3132e, type: 3}
+  - {fileID: 102900000, guid: 67c85f345d23ecc41bc828a25949f5d6, type: 3}
+  bakeScene: {fileID: 102900000, guid: 2c450a9434d0b23418102c81697da631, type: 3}
+  settings: {fileID: 11400000, guid: e8656d2b9f3b14a4989d53785729d54f, type: 2}

@@ -1,0 +1,68 @@
+{
+  "version": 0,
+  "requiredComponents": [
+    {
+      "scriptName": "DoorMecanim",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "properties": [
+        {
+          "propertyName": "startAsSpawned",
+          "propertyValue": "True",
+          "propertyType": "Bool"
+        },
+        {
+          "propertyName": "triggerCooldown",
+          "propertyValue": "0",
+          "propertyType": "Float"
+        }
+      ]
+    },
+    {
+      "scriptName": "AreaSensor",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__TRIGGERS__",
+      "properties": [
+        {
+          "propertyName": "triggerWithGameObjectTags",
+          "propertyValue": [
+            "PLAYER"
+          ],
+          "propertyType": "Array_String"
+        }
+      ]
+    }
+  ],
+  "requiredProcess": [
+    {
+      "methodName": "InitializeDoorValues",
+      "scriptName": "DoorMecanim",
+      "namespace": "ElementSpace",
+      "dll": "Assembly-CSharp",
+      "owner": "__ROOT__",
+      "arguments": []
+    },
+    {
+      "methodName": "SetOverrideController",
+      "scriptName": "ImportUtilities",
+      "namespace": "Athenea",
+      "dll": "Assembly-CSharp",
+      "owner": "__STATIC__",
+      "arguments": [
+        {
+          "argName": "animatorOwner",
+          "argValue": "__ROOT__",
+          "argType": "GameObject"
+        },
+        {
+          "argName": "animatorName",
+          "argValue": "animatorController_DoorMecanim",
+          "argType": "Path"
+        }
+      ]
+    }
+  ],
+  "postProcess": []
+}
